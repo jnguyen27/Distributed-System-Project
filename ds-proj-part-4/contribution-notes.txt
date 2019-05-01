@@ -1,0 +1,5 @@
+rwortiz: worked on shard routes, testing
+jsingh17: count keys, redistributing keys, testing
+duminguy: worked on shard routes, testing
+grslin: shard functions, rerouting, testing
+

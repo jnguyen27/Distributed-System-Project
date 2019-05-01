@@ -1,0 +1,16 @@
+#!/bin/bash
+
+export image_name=gjjr_kvs
+export followers=follower1
+export network=asg2net
+export /a port=8083
+
+docker build -t $image_name .
+
+docker rm -f leader $followers
+
+docker run --name=leader -p $port:8080 --net=$network --ip=10.0.0.20 -d $image_name
+for a in [followers]; do (
+	export /a port += 1
+	docker run --name=a -p !port!:8080 --net=$network -e MAINIP=10.0.0.20:8080 -d $image_name
+)

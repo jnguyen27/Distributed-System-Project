@@ -1,0 +1,5 @@
+rwortiz: Helped work with causality, and worked with the payload's returning as well as consistency
+jsingh17: Helped reconcile the gossip protocol, worked with causality and eventual consistency
+duminguy: Created request bodies, JSON work, as well as causality work
+grslin: Helped with the gossip protcol and causality 
+

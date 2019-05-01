@@ -1,0 +1,21 @@
+{
+  "name": "hw1",
+  "version": "1.0.0",
+  "description": "create simple REST APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specificed\\\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "RESTful"
+  ],
+  "author": "Jaisal Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

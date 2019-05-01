@@ -1,0 +1,3 @@
+rwortiz: created server.js and tested
+jsingh17: created routes.js and tested
+duminguy: created docker container and tested

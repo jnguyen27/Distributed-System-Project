@@ -1,0 +1,5 @@
+rwortiz: gets and specs testing 
+jsingh17: request forwarding and docker 
+duminguy: puts and specs testing 
+grslin: kvs object, request methods and proxy middleware
+
